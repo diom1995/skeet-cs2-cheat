@@ -1,0 +1,14 @@
+# Exclude build artifacts
+# Project-specific overrides
+*.tsx linguist-detectable
+*.yml linguist-detectable=false
+*.md linguist-documentation
+
+vendor/* linguist-vendored
+docs/*.html linguist-vendored
+
+package-lock.json linguist-generated
+*.ico binary
+docs/** linguist-vendored
+
+*.bat text eol=crlf
